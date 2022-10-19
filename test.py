@@ -6,8 +6,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 # Set Page Options
-st.title("The Carroll Grading Scale: Success or Fail")
-
+st.title("The Carroll Grading Scale")
+st.markdown("Success or Failure? She decides")
 def grade(score1, score2):
     if score1 <= 60:
         score1 = (1/60) * score1
